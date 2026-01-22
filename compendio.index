@@ -9,8 +9,9 @@
        </update>
    </info>
    <files>
-       <file name="classes/vingador.xml" />
+       <file name="classes/vingador.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/refs/heads/main/classes/vingador.xml"/>
        <file name="classes/martir.xml" />
    </files>
 
 </index>
+
