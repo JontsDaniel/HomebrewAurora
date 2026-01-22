@@ -5,11 +5,12 @@
        <description>Compendio de classes customizadas e Homebrew.</description>
        <author>Jônatas Daniel</author>
        <update version="1.0.0">
-           <file name="index.xml" url="" />
+           <file name="index.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/refs/heads/main/index.xml" />
        </update>
    </info>
    <files>
        <file name="classes/vingador.xml" />
        <file name="classes/martir.xml" />
    </files>
+
 </index>
