@@ -4,14 +4,11 @@
        <name>Homebrew Pessoal</name>
        <description>Compendio de classes customizadas e Homebrew.</description>
        <author>Jônatas Daniel</author>
-       <update version="1.0.0">
-           <file name="index.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/refs/heads/main/compendio.index" />
+       <update version="1.0.1">
+           <file name="compendio.index" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/compendio.index" />
        </update>
    </info>
    <files>
-       <file name="classes/vingador.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/refs/heads/main/classes/vingador.xml"/>
+       <file name="classes/vingador.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/vingador.xml"/>
    </files>
-
 </index>
-
-
