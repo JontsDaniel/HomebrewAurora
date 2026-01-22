@@ -10,7 +10,8 @@
    </info>
    <files>
        <file name="classes/vingador.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/vingador.xml"/>
-       <file name="classes/martir.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/martir.xml"/>
+       <file name="classes/martir.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/refs/heads/main/classes/martir.xml"/>
    </files>
 </index>
+
 
