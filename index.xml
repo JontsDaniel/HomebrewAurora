@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+   <info>
+       <name>Homebrew Pessoal</name>
+       <description>Compendio de classes customizadas e Homebrew.</description>
+       <author>Jônatas Daniel</author>
+       <update version="1.0.0">
+           <file name="index.xml" url="" />
+       </update>
+   </info>
+   <files>
+       <file name="classes/vingador.xml" />
+       <file name="classes/martir.xml" />
+   </files>
+</index>
