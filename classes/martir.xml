@@ -75,11 +75,11 @@
 
             <select type="Archetype" name="Fardo (Arquétipo)" supports="Martir" level="3" />
 
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI_AUTOMATICO" level="4" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI_AUTOMATICO" level="8" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI_AUTOMATICO" level="12" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI_AUTOMATICO" level="16" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI_AUTOMATICO" level="19" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA" level="4" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA" level="8" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA" level="12" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA" level="16" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA" level="19" />
             
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA" level="6" />
@@ -97,9 +97,9 @@
         </spellcasting>
     </element>
     
-<element name="Aumento de Atributo Automático" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ASI_AUTOMATICO">
+<element name="Resiliência do Mártir" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_RESILIENCIA_AUTOMATICA">
     <description>
-        <p>Ao atingir este nível, sua Constituição e seu Carisma aumentam em 1 de forma permanente, refletindo sua resiliência e força de vontade.</p>
+        <p>Sua provação constante fortalece seu corpo e seu espírito. Sua Constituição e seu Carisma aumentam em 1.</p>
     </description>
     <sheet display="false" />
     <rules>
@@ -922,6 +922,7 @@
     </element>
 
 </elements>
+
 
 
 
