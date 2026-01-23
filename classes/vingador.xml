@@ -73,11 +73,11 @@
             <select type="Archetype" name="Censura (Arquétipo)" supports="Vingador" level="3" />
             <grant type="Class Feature" id="ID_BE_FEATURE_CANALIZAR_DIVINDADE" level="3" />
 
-            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="4" />
-            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="8" />
-            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="12" />
-            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="16" />
-            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="19" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA" level="4" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA" level="8" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA" level="12" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA" level="16" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA" level="19" />
 
             <grant type="Class Feature" id="ID_BE_FEATURE_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_BE_FEATURE_LAMINA_DO_ZEALOT" level="6" />
@@ -97,9 +97,9 @@
             <list>Vingador</list>
         </spellcasting>
     </element>
-    <element name="Aumento de Atributo Automático" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ASI_AUTOMATICO">
+    <element name="Perfeição do Vingador" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_PERFEICAO_DIVINA_AUTOMATICA">
     <description>
-        <p>Ao atingir este nível, sua Sabedoria e sua Destreza aumentam em 1 de forma permanente, guiados pela precisão divina de sua vingança.</p>
+        <p>O foco inabalável em seu alvo aprimora seus sentidos e agilidade. Sua Sabedoria e sua Destreza aumentam em 1.</p>
     </description>
     <sheet display="false" />
     <rules>
@@ -329,6 +329,7 @@
     </element>
 
 </elements>
+
 
 
 
