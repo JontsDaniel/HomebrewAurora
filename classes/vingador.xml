@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="1.0.8">
-            <file name="vingador.xml" url="" />
+        <update version="1.0.9">
+            <file name="vingador.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/vingador.xml" />
         </update>
     </info>
     
     <element name="Vingador" type="Class" source="Biblioteca Élfica" id="ID_BE_CLASS_VINGADOR">
         <description>
-            <p>O Vingador é a representação da vingança e da ira Divina. Um alvo do vingador sabe que será caçado até o fim do mundo.</p>
+            <p>Um elfo percorre a floresta após o anoitecer, o capuz removido e a arma pronta, põe os olhos sobre o alvo. Ele murmura uma oração para a Rainha dos Corvos e tudo borra em torno dele, apenas o necromante permanece em foco. Enquanto ele se move e luta suas ações não são suas próprias, mas sim guiadas pela Rainha das trevas.</p>
+            <p class="indent">Nua, porém vestida com uma túnica escura, a mulher olha de cima de uma árvore para o acampamento orc, procurando o responsável pela tragédia de tantos anos atrás. Ou-Thaug percebe algo movendo-se através das folhas e tenta correr, mas é tarde demais. Ele foi marcado e agora não há lugar para esconder.</p>
+            <p class="indent">O Vingador é a representação da vingança e da ira Divina. Diferente de um paladino, que protege os fracos e mantém a ordem, o vingador é um instrumento de caça. Um alvo do vingador sabe que será perseguido até os confins do multiverso.</p>
             <h4>CRIANDO UM VINGADOR</h4>
-            <p>Sabedoria deve ser seu atributo mais alto, seguido por Força ou Destreza. Escolha o antecedente Acólito.</p>
+            <p>Ao criar seu vingador, pense em quem ou o que despertou sua sede de justiça divina. Foi um evento traumático? Um chamado direto de uma divindade vingativa? Sabedoria é seu atributo principal para magias e sentidos aguçados, enquanto Força ou Destreza garantem que seus golpes sejam fatais.</p>
+            <h5>CONSTRUÇÃO RÁPIDA</h5>
+            <p>Você pode fazer um vingador rapidamente seguindo estas sugestões: primeiro, Sabedoria deve ser sua pontuação de habilidade mais alta, seguida por Destreza (ou Força se quiser usar armas pesadas). Segundo, escolha o antecedente Acólito.</p>
         </description>
         <setters>
             <set name="hd">d10</set>
@@ -24,372 +28,57 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
-            
             <select type="Proficiency" name="Perícia (Vingador)" supports="Skill" number="3" />
 
             <grant type="Class Feature" id="ID_BE_FEATURE_ARMADURA_DA_FE" level="1" />
             <grant type="Class Feature" id="ID_BE_FEATURE_ESTUDOS_SAGRADOS" level="1" />
             <grant type="Class Feature" id="ID_BE_FEATURE_FORCA_FLEXIVEL" level="1" />
-            
             <grant type="Class Feature" id="ID_BE_FEATURE_INSTINTO_INQUISIDOR" level="2" />
             <grant type="Class Feature" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE" level="2" />
             <grant type="Class Feature" id="ID_BE_FEATURE_SPELLCASTING" level="2" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_CANALIZAR_DIVINDADE" level="3" />
             <select type="Archetype" name="Censura (Arquétipo)" supports="Vingador" level="3" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="4" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_EXTRA_ATTACK" level="5" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_LAMINA_DO_ZEALOT" level="6" />
             <grant type="Class Feature" id="ID_BE_FEATURE_BENCAO_DA_VINGANCA" level="6" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_EVASAO" level="7" />
             <grant type="Class Feature" id="ID_BE_FEATURE_ATAQUE_VINGATIVO" level="7" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="8" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_CONVICCAO_VERDADEIRA" level="10" />
             <grant type="Class Feature" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE_IMPROVED" level="10" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_CLAREZA_DA_ALMA" level="11" />
             <grant type="Class Feature" id="ID_BE_FEATURE_IRA_DO_DIVINO" level="11" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="12" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_ESPIRITO_DURADOURO" level="14" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_OLHO_DA_JUSTICA" level="15" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="16" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_REPREENSAO_FANATICO" level="18" />
-
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="19" />
-
             <grant type="Class Feature" id="ID_BE_FEATURE_ESPIRITO_DA_VINGANCA" level="20" />
         </rules>
-        
         <spellcasting name="Vingador" ability="Wisdom" prepare="true">
             <list>Magias de Vingador</list>
         </spellcasting>
     </element>
 
-    <element name="Conjuração" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_SPELLCASTING">
+    <element name="Juramento de Inimizade" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE">
         <description>
-            <p>Você aprendeu a usar a magia divina para promover sua vingança.</p>
+            <p>Sua divindade concede a você a capacidade de focar sua ira em um único traidor. Como uma ação bônus, você pode proferir um juramento de inimizade contra uma criatura que você possa ver a até 9 metros de você.</p>
+            <p>Até o final do seu turno ou até a criatura cair a 0 pontos de vida, você tem vantagem nas jogadas de ataque corpo-a-corpo contra a criatura, desde que esteja usando armas Versáteis ou Pesadas e nenhuma outra criatura (além de você e o alvo) esteja adjacente a você.</p>
         </description>
-        <sheet display="false" />
-        <spellcasting name="Vingador" ability="Wisdom" prepare="true" allowReplace="true">
-            <list>Magias de Vingador</list>
-        </spellcasting>
+        <sheet action="Bonus Action" usage="1/Descanso Curto">
+            <description>Vantagem contra alvo marcado (9m) se você estiver "sozinho" com ele.</description>
+        </sheet>
     </element>
 
     <element name="Armadura da Fé" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ARMADURA_DA_FE">
         <description>
-            <p>Quando não estiver usando armadura ou escudo, sua CA é 10 + mod Destreza + mod Sabedoria.</p>
+            <p>Seu foco espiritual e agilidade física criam uma barreira de proteção. Enquanto você não estiver usando nenhuma armadura e nem empunhando um escudo, sua Classe de Armadura será 10 + seu modificador de Destreza + seu modificador de Sabedoria.</p>
         </description>
         <sheet>
             <description>CA = 10 + DES + SAB (Sem armadura/escudo).</description>
         </sheet>
     </element>
-
-    <element name="Estudos Sagrados" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ESTUDOS_SAGRADOS">
-        <description>
-            <p>Vantagem em testes de Inteligência sobre sua divindade. Escolha um idioma.</p>
-        </description>
-        <rules>
-            <select type="Language" name="Idioma (Estudos Sagrados)" supports="ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_INFERNAL|ID_LANGUAGE_SYLVAN" />
-        </rules>
-    </element>
-
-    <element name="Força Flexível" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_FORCA_FLEXIVEL">
-        <description>
-            <p>Você pode usar Destreza ao invés de Força para ataque e dano com armas versáteis ou pesadas.</p>
-        </description>
-        <sheet>
-            <description>Pode usar DES para ataque/dano com armas versáteis ou pesadas.</description>
-        </sheet>
-    </element>
-
-    <element name="Instinto Inquisidor" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_INSTINTO_INQUISIDOR">
-        <description>
-            <p>Escolha duas das seguintes perícias: Intuição, Intimidação ou Investigação. Seu bônus de proficiência é dobrado nelas.</p>
-        </description>
-        <rules>
-            <select type="Proficiency" name="Especialização (Vingador)" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INVESTIGATION" number="2" />
-        </rules>
-    </element>
-
-    <element name="Juramento de Inimizade" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE">
-        <description>
-            <p>Ação Bônus: Escolha uma criatura a até 9m. Por 1 minuto, você tem Vantagem em ataques corpo-a-corpo contra ela.</p>
-        </description>
-        <sheet action="Bonus Action" usage="1/Descanso Curto">
-            <description>Vantagem contra alvo a até 9m.</description>
-        </sheet>
-    </element>
-
-    <element name="Canalizar Divindade" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_CANALIZAR_DIVINDADE">
-        <description>
-            <p>Efeitos: Abjurar Adversário e Orientação Divina.</p>
-        </description>
-        <sheet usage="1/Descanso Curto" />
-        <rules>
-            <grant type="Class Feature" id="ID_BE_CD_ABJURAR" />
-            <grant type="Class Feature" id="ID_BE_CD_ORIENTACAO" />
-        </rules>
-    </element>
     
-    <element name="CD: Abjurar Adversário" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_CD_ABJURAR">
-        <description>
-            <p>Ação: Criatura a 9m faz teste de Sabedoria. Falha: 3x Nível de dano radiante e speed 0.</p>
-        </description>
-        <sheet action="Action">
-            <description>Dano Radiante: 3d10 + {{level:vingador}}. Speed 0. Wis Save (Metade/Nega).</description>
-        </sheet>
-    </element>
-
-    <element name="CD: Orientação Divina" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_CD_ORIENTACAO">
-        <description>
-            <p>Quando uma criatura aliada a até 9 metros erra um ataque, reação para rolar novamente.</p>
-        </description>
-        <sheet action="Reaction">
-            <description>Aliado a 9m rola ataque novamente.</description>
-        </sheet>
-    </element>
-
-    <element name="Lâmina do Zealot" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_LAMINA_DO_ZEALOT">
-        <description>
-            <p>Sempre que você tiver vantagem numa jogada de ataque corpo-a-corpo e acertar, se ambos os dados da jogada resultarem no mesmo número e esse número for maior que 1, o ataque é um acerto crítico.</p>
-        </description>
-        <sheet>
-            <description>Crítico se dados iguais e >1 em vantagem.</description>
-        </sheet>
-    </element>
-
-    <element name="Benção da Vingança" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_BENCAO_DA_VINGANCA">
-        <description>
-            <p>Se você reduzir o alvo do seu juramento de inimizade a 0 pontos de vida, você pode recuperar um uso de seu juramento de inimizade.</p>
-        </description>
-        <sheet>
-            <description>Recupera Juramento ao matar alvo marcado.</description>
-        </sheet>
-    </element>
-
-    <element name="Ataque Vingativo" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ATAQUE_VINGATIVO">
-        <description>
-            <p>Quando você acertar uma criatura com um ataque de oportunidade, você causará dano adicional igual ao seu modificador de Sabedoria (mínimo de +1).</p>
-        </description>
-        <sheet>
-            <description>Ataques de Oportunidade causam +{{wis:modifier}} de dano extra.</description>
-        </sheet>
-    </element>
-
-    <element name="Evasão" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_EVASAO">
-        <description>
-            <p>Quando você for alvo de um efeito que exige um teste de resistência de Destreza para sofrer metade do dano, você não sofre dano se passar, e somente metade se falhar.</p>
-        </description>
-        <sheet>
-            <description>Evasão.</description>
-        </sheet>
-    </element>
-
-    <element name="Convicção Verdadeira" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_CONVICCAO_VERDADEIRA">
-        <description>
-            <p>Você é imune às condições Encantado e Amedrontado.</p>
-        </description>
-        <sheet>
-            <description>Imunidade a Charm/Frightened.</description>
-        </sheet>
-    </element>
-
-    <element name="Juramento Aprimorado" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE_IMPROVED">
-        <description>
-            <p>Enquanto o seu juramento de inimizade estiver ativo, seus ataques corpo-a-corpo contra o alvo causam dano radiante adicional igual ao seu modificador de Sabedoria (mínimo 1).</p>
-        </description>
-        <sheet>
-            <description>+{{wis:modifier}} dano radiante contra alvo do juramento.</description>
-        </sheet>
-    </element>
-
-    <element name="Clareza da Alma" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_CLAREZA_DA_ALMA">
-        <description>
-            <p>Você está sempre sob o efeito da magia zona da verdade.</p>
-        </description>
-        <sheet>
-            <description>Zona da Verdade permanente.</description>
-        </sheet>
-    </element>
-
-    <element name="Ira do Divino" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_IRA_DO_DIVINO">
-        <description>
-            <p>Uma vez por turno, quando você realizar um acerto crítico com uma arma corpo-a-corpo, você pode fazer um ataque corpo-a-corpo adicional como parte da mesma ação.</p>
-        </description>
-        <sheet>
-            <description>Ataque extra ao critar (1/turno).</description>
-        </sheet>
-    </element>
-
-    <element name="Espírito Duradouro" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ESPIRITO_DURADOURO">
-        <description>
-            <p>Quando você tiver menos da metade de seus pontos de vida máximos restantes, você ganha +2 na sua Classe de Armadura.</p>
-        </description>
-        <sheet>
-            <description>+2 CA se PV &lt; 50%.</description>
-        </sheet>
-    </element>
-
-    <element name="Olho da Justiça" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_OLHO_DA_JUSTICA">
-        <description>
-            <p>Você pode conjurar a magia visão verdadeira sem gastar um espaço de magia. 1/descanso.</p>
-        </description>
-        <sheet usage="1/Descanso">
-            <description>Conjura True Seeing.</description>
-        </sheet>
-    </element>
-
-    <element name="Repreensão do Fanático" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_REPREENSAO_FANATICO">
-        <description>
-            <p>Quando uma criatura que não está sob o efeito de seu juramento de inimizade começa ou termina seu turno adjacente a você, ela leva seu modificador de Sabedoria em dano radiante.</p>
-        </description>
-        <sheet>
-            <description>Inimigos (não jurados) adjacentes levam {{wis:modifier}} dano radiante.</description>
-        </sheet>
-    </element>
-
-    <element name="Espírito da Vingança" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ESPIRITO_DA_VINGANCA">
-        <description>
-            <p>O número de vezes que você pode usar seu juramento de inimizade é ilimitado. Além disso, quando você realiza a ação de Ataque e ataca apenas o alvo do seu juramento de inimizade, você pode fazer três ataques ao invés de dois.</p>
-        </description>
-        <sheet>
-            <description>Juramento ilimitado. +1 Ataque contra alvo.</description>
-        </sheet>
-    </element>
-
-    <element name="Censura da Perseguição" type="Archetype" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_CENSURA_PERSEGUICAO">
-        <supports>Vingador</supports>
-        <description>
-            <p>Foco em mobilidade e impedir fugas.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Class Feature" id="ID_BE_ARCHETYPE_FEATURE_LIGACAO_PERSEGUICAO" level="3" />
-            <grant type="Class Feature" id="ID_BE_ARCHETYPE_FEATURE_AVANCO_IMPLACAVEL" level="7" />
-            <grant type="Class Feature" id="ID_BE_ARCHETYPE_FEATURE_ALCANCE_INIMIZADE" level="14" />
-            <grant type="Class Feature" id="ID_BE_ARCHETYPE_FEATURE_PASSO_INESCAPAVEL" level="18" />
-        </rules>
-    </element>
-    
-    <element name="Ligação de Perseguição" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_FEATURE_LIGACAO_PERSEGUICAO">
-        <description>
-            <p>Como uma reação quando o alvo do seu juramento de inimizade se move para longe de você, você pode se mover até o seu deslocamento para um espaço adjacente à criatura e realizar um ataque corpo-a-corpo contra ela.</p>
-        </description>
-        <sheet action="Reaction">
-            <description>Persegue e ataca alvo que foge.</description>
-        </sheet>
-    </element>
-
-    <element name="Avanço Implacável" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_FEATURE_AVANCO_IMPLACAVEL">
-        <description>
-            <p>Seu deslocamento aumenta em 3 metros e mover-se através de terreno difícil não custa movimento extra.</p>
-        </description>
-        <sheet>
-            <description>Ignora terreno difícil.</description>
-        </sheet>
-        <rules>
-            <stat name="speed:misc" value="10" />
-        </rules>
-    </element>
-
-    <element name="Alcance da Inimizade" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_FEATURE_ALCANCE_INIMIZADE">
-        <description>
-            <p>O alcance do seu juramento de inimizade aumenta para 18 metros. Além disso, quando você usa seu juramento, você pode se teleportar para um espaço adjacente ao alvo.</p>
-        </description>
-        <sheet>
-            <description>Juramento 18m + Teleporte.</description>
-        </sheet>
-    </element>
-
-    <element name="Passo Inescapável" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_FEATURE_PASSO_INESCAPAVEL">
-        <description>
-            <p>Você ganha deslocamento de vôo e natação igual ao seu deslocamento de caminhada.</p>
-        </description>
-        <sheet>
-            <description>Ganha Vôo e Natação.</description>
-        </sheet>
-    </element>
-
-    <element name="Censura da Retribuição" type="Archetype" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_CENSURA_RETRIBUICAO">
-        <supports>Vingador</supports>
-        <description>
-            <p>Foco em punir quem ataca você ou seus aliados.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Class Feature" id="ID_BE_ARCHETYPE_FEATURE_VINCULO_RETRIBUICAO" level="3" />
-        </rules>
-    </element>
-    
-    <element name="Vínculo de Retribuição" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_ARCHETYPE_FEATURE_VINCULO_RETRIBUICAO">
-        <description>
-            <p>Como uma reação, quando uma criatura que não seja o alvo do seu juramento de inimizade atingir você ou uma criatura aliada com um ataque, você pode usar sua reação para fazer um ataque de oportunidade contra o alvo do seu juramento.</p>
-        </description>
-        <sheet action="Reaction">
-            <description>Se outro te atacar, você bate no alvo do juramento.</description>
-        </sheet>
-    </element>
-
-    <element name="Magias de Vingador" type="Spell List" source="Biblioteca Élfica" id="ID_BE_LIST_SPELL_VINGADOR">
-        <grant id="ID_PHB_SPELL_BANE" level="1" />
-        <grant id="ID_PHB_SPELL_BLESS" level="1" />
-        <grant id="ID_PHB_SPELL_COMMAND" level="1" />
-        <grant id="ID_PHB_SPELL_COMPELLED_DUEL" level="1" />
-        <grant id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" level="1" />
-        <grant id="ID_PHB_SPELL_DETECT_MAGIC" level="1" />
-        <grant id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="1" />
-        <grant id="ID_PHB_SPELL_FAERIE_FIRE" level="1" />
-        <grant id="ID_PHB_SPELL_GUIDING_BOLT" level="1" />
-        <grant id="ID_PHB_SPELL_INFLICT_WOUNDS" level="1" />
-        <grant id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="1" />
-        <grant id="ID_PHB_SPELL_SANCTUARY" level="1" />
-        <grant id="ID_PHB_SPELL_THUNDEROUS_SMITE" level="1" />
-        <grant id="ID_PHB_SPELL_WRATHFUL_SMITE" level="1" />
-        
-        <grant id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="2" />
-        <grant id="ID_PHB_SPELL_DETECT_THOUGHTS" level="2" />
-        <grant id="ID_PHB_SPELL_ENHANCE_ABILITY" level="2" />
-        <grant id="ID_PHB_SPELL_HOLD_PERSON" level="2" />
-        <grant id="ID_PHB_SPELL_LESSER_RESTORATION" level="2" />
-        <grant id="ID_PHB_SPELL_LOCATE_OBJECT" level="2" />
-        <grant id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="2" />
-        <grant id="ID_PHB_SPELL_SEE_INVISIBILITY" level="2" />
-        <grant id="ID_PHB_SPELL_SILENCE" level="2" />
-        <grant id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="2" />
-        
-        <grant id="ID_PHB_SPELL_BESTOW_CURSE" level="3" />
-        <grant id="ID_PHB_SPELL_BLINDING_SMITE" level="3" />
-        <grant id="ID_PHB_SPELL_DISPEL_MAGIC" level="3" />
-        <grant id="ID_PHB_SPELL_FEAR" level="3" />
-        <grant id="ID_PHB_SPELL_FEIGN_DEATH" level="3" />
-        <grant id="ID_PHB_SPELL_HASTE" level="3" />
-        <grant id="ID_PHB_SPELL_NONDETECTION" level="3" />
-        <grant id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="3" />
-        <grant id="ID_PHB_SPELL_REMOVE_CURSE" level="3" />
-        <grant id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="3" />
-        
-        <grant id="ID_PHB_SPELL_BANISHMENT" level="4" />
-        <grant id="ID_PHB_SPELL_DEATH_WARD" level="4" />
-        <grant id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="4" />
-        <grant id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="4" />
-        <grant id="ID_PHB_SPELL_LOCATE_CREATURE" level="4" />
-        
-        <grant id="ID_PHB_SPELL_BANISHING_SMITE" level="5" />
-        <grant id="ID_PHB_SPELL_COMMUNE" level="5" />
-        <grant id="ID_PHB_SPELL_CONTAGION" level="5" />
-        <grant id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD" level="5" />
-        <grant id="ID_PHB_SPELL_HOLD_MONSTER" level="5" />
-        <grant id="ID_PHB_SPELL_MISLEAD" level="5" />
-    </element>
-</elements>
+    </elements>
