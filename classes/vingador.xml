@@ -54,13 +54,13 @@
         </setters>
         <sheet display="false" />
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+            <grant type="Proficiency" source="Biblioteca Élfica" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
             <select type="Proficiency" name="Perícia (Vingador)" supports="Vingador" number="3" />
 
             <grant type="Class Feature" id="ID_BE_FEATURE_ARMADURA_DA_FE" level="1" />
@@ -329,5 +329,6 @@
     </element>
 
 </elements>
+
 
 
