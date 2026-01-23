@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="1.0.0">
+        <update version="1.0.2">
             <file name="martir.xml" url="" />
         </update>
     </info>
     
-    <element name="Mártir" type="Class" source="Felix Klaus" id="ID_FELIX_CLASS_MARTIR">
+    <element name="Martir" type="Class" source="Felix Klaus" id="ID_FELIX_CLASS_MARTIR">
         <description>
             <p>O Mártir arrisca a própria vida por um bem maior, se colocando no lugar dos aliados e os protegendo através do próprio sofrimento.</p>
             <h4>CRIANDO UM MÁRTIR</h4>
@@ -26,7 +26,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
             
-            <select type="Proficiency" name="Perícia (Mártir)" supports="Skill" number="2" />
+            <select type="Proficiency" name="Perícia (Martir)" supports="Skill" number="2" />
 
             <grant type="Class Feature" id="ID_FELIX_FEATURE_POCO_DE_SOFRIMENTO" level="1" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_SPELLCASTING" level="1" /> 
@@ -36,11 +36,11 @@
             <grant type="Class Feature" id="ID_FELIX_FEATURE_CANALIZAR_DIVINDADE" level="2" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_ESTILO_DE_LUTA" level="2" />
 
-            <select type="Archetype" name="Fardo (Arquétipo)" supports="Mártir" level="3" />
+            <select type="Archetype" name="Fardo (Arquétipo)" supports="Martir" level="3" />
 
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="4" />
 
-            <grant type="Class Feature" id="ID_PHB_FEATURE_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_EXTRA_ATTACK" level="5" />
 
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA" level="6" />
 
@@ -61,14 +61,26 @@
             <grant type="Class Feature" id="ID_PHB_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="19" />
         </rules>
         
-        <spellcasting name="Mártir" ability="Charisma" prepare="true">
-            <list>Magias de Mártir</list>
+        <spellcasting name="Martir" ability="Charisma" prepare="true">
+            <list>Magias de Martir</list>
         </spellcasting>
+    </element>
+
+    <element name="Ataque Extra" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EXTRA_ATTACK">
+        <description>
+            <p>A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, sempre que realizar a ação de Ataque no seu turno.</p>
+        </description>
+        <sheet>
+            <description>Ataca duas vezes com ação de Ataque.</description>
+        </sheet>
+        <rules>
+            <stat name="extra attack:count" value="1" level="5" bonus="extra attack" />
+        </rules>
     </element>
 
     <element name="Maestria em Armas" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_MAESTRIA">
         <description>
-            <p>Seu treinamento marcial permite dominar armas complexas e extrair o máximo de seu potencial.</p>
+            <p>Seu treinamento marcial permite dominar armas complexas.</p>
         </description>
         <sheet>
             <description>Possui Maestria em Armas.</description>
@@ -80,7 +92,7 @@
             <p>Quando sofre dano, metade vira cura armazenada (Max 10x Nível). Pode curar (ação/bônus) ou aumentar dano (lvl 2).</p>
         </description>
         <sheet>
-            <description>Reserva de cura: {{martir:poco}} pts. Ao levar dano, ganha metade em pontos. Gasta para curar ou causar dano extra.</description>
+            <description>Reserva de cura: {{martir:poco}} pts. Ao levar dano, ganha metade em pontos.</description>
         </sheet>
         <rules>
             <stat name="martir:poco" value="level:martir" />
@@ -101,14 +113,14 @@
             <p>Carisma é seu atributo de conjuração.</p>
         </description>
         <sheet display="false" />
-        <spellcasting name="Mártir" ability="Charisma" prepare="true" allowReplace="true">
-            <list>Magias de Mártir</list>
+        <spellcasting name="Martir" ability="Charisma" prepare="true" allowReplace="true">
+            <list>Magias de Martir</list>
         </spellcasting>
     </element>
 
     <element name="Sacrifício Altruísta" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SACRIFICIO_ALTRUISTA">
         <description>
-            <p>Reação: Quando aliado a 18m sofrer dano, você sofre o dano no lugar dele (não pode reduzir). Usos: 1 + CAR.</p>
+            <p>Reação: Quando aliado a 18m sofrer dano, você sofre o dano no lugar dele.</p>
         </description>
         <sheet action="Reaction" usage="{{sacrificio:usage}}/Descanso Curto">
             <description>Sofre dano no lugar de aliado a 18m.</description>
@@ -121,7 +133,7 @@
 
     <element name="Canalizar Divindade" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CANALIZAR_DIVINDADE">
         <description>
-            <p>Você pode canalizar energia divina para alimentar efeitos poderosos. Você inicia com dois efeitos: Flagelação Arcana e Flagelação Curativa.</p>
+            <p>Você pode canalizar energia divina para alimentar efeitos poderosos. Efeitos: Flagelação Arcana e Flagelação Curativa.</p>
         </description>
         <sheet usage="1/Descanso Curto" />
         <rules>
@@ -153,16 +165,16 @@
             <p>Escolha um estilo de luta.</p>
         </description>
         <rules>
-            <select type="Class Feature" name="Estilo de Luta" supports="Fighting Style, Paladin" />
+            <select type="Class Feature" name="Estilo de Luta" supports="Fighting Style" />
         </rules>
     </element>
 
     <element name="Empatia Dolorosa" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA">
         <description>
-            <p>Ação: Toque uma criatura sofrendo condição (Cego, Surdo, Veneno, Doença) para transferir o efeito para você.</p>
+            <p>Ação: Transfere condição negativa de aliado para você.</p>
         </description>
         <sheet action="Action">
-            <description>Transfere condição negativa do aliado para você.</description>
+            <description>Transfere condição de aliado para você.</description>
         </sheet>
     </element>
 
@@ -195,98 +207,74 @@
 
     <element name="O Mártir" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_O_MARTIR_FINAL">
         <description>
-            <p>Toque criatura morta/caída. Você morre, ela revive full HP. Impossível reviver por 7 dias.</p>
+            <p>Sacrifício final para reviver aliado com 100% HP.</p>
         </description>
         <sheet action="Action">
-            <description>Sacrifício final para reviver aliado com 100% HP.</description>
+            <description>Morre para reviver aliado.</description>
         </sheet>
     </element>
 
     <element name="Fardo da Misericórdia" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_MISERICORDIA">
-        <supports>Mártir</supports>
-        <description>
-            <p>Foca em cura e proteção.</p>
-        </description>
+        <supports>Martir</supports>
+        <description><p>Foca em cura e proteção.</p></description>
         <sheet display="false" />
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" level="1" spellcasting="Mártir" prepared="true" />
-            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="1" spellcasting="Mártir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" level="1" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="1" spellcasting="Martir" prepared="true" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_PIEDADE_COMPASSIVA" level="3" />
         </rules>
     </element>
     <element name="Piedade Compassiva" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_PIEDADE_COMPASSIVA">
-        <description>
-            <p>Quando inimigo cai a 0 e não morre, grupo ganha HP temp (Mod Car + Prof).</p>
-        </description>
-        <sheet>
-            <description>HP Temp ao poupar inimigo.</description>
-        </sheet>
+        <description><p>HP Temp ao poupar inimigo.</p></description>
+        <sheet><description>HP Temp ao poupar inimigo.</description></sheet>
     </element>
 
     <element name="Fardo da Justiça" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_JUSTICA">
-        <supports>Mártir</supports>
-        <description>
-            <p>Retribuição e proteção ativa.</p>
-        </description>
+        <supports>Martir</supports>
+        <description><p>Retribuição e proteção ativa.</p></description>
         <sheet display="false" />
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="1" spellcasting="Mártir" prepared="true" />
-            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="1" spellcasting="Mártir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="1" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="1" spellcasting="Martir" prepared="true" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_RETRIBUICAO_JUSTICA" level="3" />
         </rules>
     </element>
     <element name="Retribuição" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_RETRIBUICAO_JUSTICA">
-        <description>
-            <p>Ao usar Sacrifício Altruísta, causa 5 dano radiante no atacante (10 no lvl 9, 15 no lvl 17).</p>
-        </description>
-        <sheet>
-            <description>Causa dano fixo ao usar Sacrifício.</description>
-        </sheet>
+        <description><p>Causa dano fixo ao usar Sacrifício.</p></description>
+        <sheet><description>Causa dano fixo ao usar Sacrifício.</description></sheet>
     </element>
 
     <element name="Fardo da Punição" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_PUNICAO">
-        <supports>Mártir</supports>
-        <description>
-            <p>Usa a dor para punir inimigos.</p>
-        </description>
+        <supports>Martir</supports>
+        <description><p>Usa a dor para punir inimigos.</p></description>
         <sheet display="false" />
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="1" spellcasting="Mártir" prepared="true" />
-            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1" spellcasting="Mártir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="1" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1" spellcasting="Martir" prepared="true" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_AUTOLESÃO_REDENTORA" level="3" />
         </rules>
     </element>
     <element name="Autolesão Redentora" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_AUTOLESÃO_REDENTORA">
-        <description>
-            <p>Ação: Cause dano a si mesmo para encher o Poço de Sofrimento (1 pra 1).</p>
-        </description>
-        <sheet action="Action">
-            <description>Autolesão enche Poço de Sofrimento.</description>
-        </sheet>
+        <description><p>Autolesão enche Poço de Sofrimento.</p></description>
+        <sheet action="Action"><description>Autolesão enche Poço de Sofrimento.</description></sheet>
     </element>
     
     <element name="Fardo da Redenção" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_REDENCAO">
-        <supports>Mártir</supports>
-        <description>
-            <p>Busca redimir erros e falhas.</p>
-        </description>
+        <supports>Martir</supports>
+        <description><p>Busca redimir erros e falhas.</p></description>
         <sheet display="false" />
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="1" spellcasting="Mártir" prepared="true" />
-            <grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="1" spellcasting="Mártir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="1" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="1" spellcasting="Martir" prepared="true" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_REPARACAO_ERRO" level="3" />
         </rules>
     </element>
     <element name="Reparação do Erro" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_REPARACAO_ERRO">
-        <description>
-            <p>Se errar ataque melee, ganha vantagem no próximo. Usos: Mod Carisma.</p>
-        </description>
-        <sheet usage="{{charisma:modifier}}/Descanso Curto">
-            <description>Errou? Vantagem no próximo.</description>
-        </sheet>
+        <description><p>Errou? Vantagem no próximo.</p></description>
+        <sheet><description>Errou? Vantagem no próximo.</description></sheet>
     </element>
 
-    <element name="Magias de Mártir" type="Spell List" source="Felix Klaus" id="ID_FELIX_SPELL_LIST_MARTIR">
+    <element name="Magias de Martir" type="Spell List" source="Felix Klaus" id="ID_FELIX_SPELL_LIST_MARTIR">
         <grant id="ID_PHB_SPELL_BLESS" level="1" />
         <grant id="ID_PHB_SPELL_COMMAND" level="1" />
         <grant id="ID_PHB_SPELL_COMPELLED_DUEL" level="1" />
