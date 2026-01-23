@@ -1,19 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.3.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="1.0.4">
+        <update version="1.0.7">
             <file name="martir.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/martir.xml" />
         </update>
     </info>
     
-    <element name="Martir" type="Class" source="Felix Klaus" id="ID_FELIX_CLASS_MARTIR">
+<element name="Martir" type="Class" source="Felix Klaus" id="ID_FELIX_CLASS_MARTIR">
         <description>
-            <p>Era uma batalha brutal em meio a um campo aberto, com morte e sofrimento por todos os lados. Um homem se destaca, vestindo trapos e carregando apenas um cajado, ele caminha calmamente entre as lâminas. Um soldado inimigo tenta golpeá-lo, mas o ferimento aparece no próprio soldado, enquanto o homem continua seu caminho para curar um aliado caído.</p>
-            <p class="indent">O Mártir é aquele que entende que a dor é o caminho para a salvação. Eles não apenas aceitam o sofrimento; eles o transformam em poder para proteger aqueles que não podem se proteger sozinhos. Através de um elo divino ou uma determinação inabalável, eles se tornam o escudo vivo de seus companheiros.</p>
-            <h4>O CAMINHO DO SACRIFÍCIO</h4>
-            <p>Diferente de clérigos ou paladinos que canalizam luz, o Mártir canaliza a resiliência física. Cada cicatriz em seu corpo é um testemunho de uma vida salva. Eles costumam viver em comunidades pobres ou campos de guerra, onde a ajuda é mais necessária.</p>
+            <p><i>“Era uma batalha brutal em meio a um campo aberto, com morte e sofrimento por todos os lados. Não existia lugar para empatia, bondade e até mesmo já esquecemos o motivo de lutarmos, mas não ele. Um humano com aparência de sacerdote andava pelo campo de batalha com uma expressão de dor e motivação; ele lutava incansavelmente, protegendo seus aliados da forma que podia...”</i></p>
+            <p class="indent"><i>“...Todos nós morremos naquele dia, menos o sacerdote. As histórias sobre ele são contadas até hoje e são usadas para motivar os outros em momentos em que a esperança quase não existe, e lendas nunca morrem de verdade.”</i></p>
+
+            <h4>UMA VIDA DE SOFRIMENTO</h4>
+            <p>Para um Mártir, a vida de sofrimento não é apenas uma série de eventos dolorosos, mas uma filosofia de existência. O sofrimento é a pedra angular de sua força e identidade. Cada golpe e sacrifício são transformações que elevam o Mártir a um estado de resiliência e transcendência.</p>
+            <p>O sofrimento do Mártir é físico, emocional e espiritual. Ele vê a dor como purificação, revelando o verdadeiro caráter e desenvolvendo profunda compaixão. O Mártir não busca a dor, mas a aceita como o custo de seu dever.</p>
+
+            <h4>ORIGENS DIVERSAS</h4>
+            <p>Geralmente, Mártires são devotos a um deus, mas isso não é uma regra. Você pode ser um Mártir sem acreditar em um deus. O ato de ser um Mártir é, acima de tudo, um compromisso com o sacrifício e a proteção dos outros.</p>
+            <p>Seu poder pode emergir de várias fontes: um evento traumático no passado, um artefato antigo, energias sobrenaturais, estudos arcanos, experimentos alquímicos ou científicos, ou mesmo uma conexão com a natureza. Cada Mártir transforma seu sofrimento em poder, refletindo uma história e uma motivação únicas.</p>
+
+            <h4>O MÁRTIR</h4>
+            <table>
+                <thead>
+                    <tr><td>Nível</td><td>Proficiência</td><td>Características</td><td>1°</td><td>2°</td><td>3°</td><td>4°</td><td>5°</td></tr>
+                </thead>
+                <tr><td>1o</td><td>+2</td><td>Sacrifício Altruísta, Poço de Sofrimento</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>2o</td><td>+2</td><td>Estilo de Luta, Conjuração</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>3o</td><td>+2</td><td>Fardo</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>4o</td><td>+2</td><td>Incremento no Valor de Habilidade</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>5o</td><td>+3</td><td>Ataque Extra</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>6o</td><td>+3</td><td>Empatia Dolorosa</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>7o</td><td>+3</td><td>Fardo</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>8o</td><td>+3</td><td>Incremento no Valor de Habilidade</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>9o</td><td>+4</td><td>—</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+                <tr><td>10o</td><td>+4</td><td>Inspiração Vingativa</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+                <tr><td>11o</td><td>+4</td><td>Adaptação Retaliatória</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+                <tr><td>12o</td><td>+4</td><td>Incremento no Valor de Habilidade</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+                <tr><td>13o</td><td>+5</td><td>—</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+                <tr><td>14o</td><td>+5</td><td>Cadeia de Penitência</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+                <tr><td>15o</td><td>+5</td><td>Fardo</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+                <tr><td>16o</td><td>+5</td><td>Incremento no Valor de Habilidade</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+                <tr><td>17o</td><td>+6</td><td>—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+                <tr><td>18o</td><td>+6</td><td>O Mártir</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+                <tr><td>19o</td><td>+6</td><td>Incremento no Valor de Habilidade</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+                <tr><td>20o</td><td>+6</td><td>Fardo</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+            </table>
+
+            <h4>CRIANDO UM MÁRTIR</h4>
+            <p>Ao criar um Mártir, pense sobre a origem do seu poder e seu compromisso com o sacrifício e a proteção dos outros. Quem ou o que você jurou proteger? Como você lida com a dor e o sofrimento? Seu poder vem de um evento traumático, de uma entidade divina, de sua própria determinação ou de uma maldição? Considere como essas questões moldam suas habilidades e escolhas de classe.</p>
+
             <h5>CONSTRUÇÃO RÁPIDA</h5>
-            <p>Você pode fazer um mártir rapidamente seguindo estas sugestões: primeiro, Constituição deve ser sua pontuação de habilidade mais alta, seguida por Carisma. Segundo, escolha o antecedente Eremita ou Acólito.</p>
+            <p>Você pode fazer um mártir rapidamente seguindo estas sugestões: primeiro, <b>Constituição</b> deve ser sua pontuação de habilidade mais alta, seguida por <b>Carisma</b>. Segundo, escolha o antecedente Acólito ou Eremita.</p>
         </description>
         <setters>
             <set name="hd">d12</set>
@@ -30,51 +67,856 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
             <select type="Proficiency" name="Perícia (Martir)" supports="Skill" number="2" />
 
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_SACRIFICIO_ALTRUISTA" level="1" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_POCO_DE_SOFRIMENTO" level="1" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_SPELLCASTING" level="1" /> 
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MAESTRIA" level="1" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_SACRIFICIO_ALTRUISTA" level="2" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_CANALIZAR_DIVINDADE" level="2" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_ESTILO_DE_LUTA" level="2" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CONJURACAO" level="2" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_FLAGELACAO_ARCANA" level="2" />
+
             <select type="Archetype" name="Fardo (Arquétipo)" supports="Martir" level="3" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MARTIR_ASI" level="4" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="4" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA" level="6" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MARTIR_ASI" level="8" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="8" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_INSPIRACAO_VINGATIVA" level="10" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_ADAPTACAO_RETALIATORIA" level="11" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MARTIR_ASI" level="12" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="12" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_CADEIA_DE_PENITENCIA" level="14" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MARTIR_ASI" level="16" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_O_MARTIR_FINAL" level="18" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_MARTIR_ASI" level="19" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="16" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_O_MARTIR_18" level="18" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="19" />
+
+            <stat name="martir:prepare:count" value="charisma:modifier" />
+            <stat name="martir:prepare:count" value="level:martir:half" />
+            <stat name="martir:prepare:count" value="1" bonus="base" />
         </rules>
         <spellcasting name="Martir" ability="Charisma" prepare="true">
-            <list>Magias de Martir</list>
+            <list>Paladin</list>
         </spellcasting>
+    </element>
+
+<element name="Sacrifício Altruísta" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SACRIFICIO_ALTRUISTA">
+        <description>
+            <p>Quando um aliado está prestes a sofrer dano, o Mártir pode, através de sua própria dor, interceder para salvar seu companheiro. Como uma reação, quando uma criatura a até 18 metros de você sofrer dano, você pode escolher receber esse dano em seu lugar.</p>
+            <p>O dano que você sofre é o mesmo que a criatura sofreria; você não pode reduzir o dano que sofrer pelo aliado de nenhuma forma própria, mesmo se você tiver resistência ou imunidade. Você pode optar por usar essa habilidade depois que seu aliado reduzir o dano por alguma habilidade ou resistência que ele tenha.</p>
+            <p>Você pode usar essa habilidade um número de vezes igual a 1 + seu modificador de Carisma. Você recupera os usos após completar um descanso curto.</p>
+            <h5>Alternativamente (Pé no chão)</h5>
+            <p>Caso queira fazer um personagem menos mágico, o alcance passa a ser 3 metros e a quantidade de usos é dobrada.</p>
+        </description>
+        <sheet action="Reaction" usage="{{sacrificio:usos}}/Descanso Curto">
+            <description>Recebe dano no lugar de aliado a até 18m. Dano não pode ser reduzido por suas resistências.</description>
+        </sheet>
+        <rules>
+            <stat name="sacrificio:usos" value="1" />
+            <stat name="sacrificio:usos" value="charisma:modifier" />
+        </rules>
     </element>
 
     <element name="Poço de Sofrimento" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_POCO_DE_SOFRIMENTO">
         <description>
-            <p>O Mártir possui uma reserva interna de energia alimentada pela própria dor. Sempre que você sofrer dano de uma fonte hostil, metade do dano sofrido (arredondado para baixo) é convertido em pontos de sofrimento e armazenado em seu Poço de Sofrimento.</p>
-            <p>O limite máximo de pontos que seu poço pode armazenar é igual a 10 vezes o seu nível nesta classe. Você pode gastar esses pontos para:</p>
-            <ul>
-                <li><strong>Cura:</strong> Com uma ação bônus, você gasta pontos para curar a si mesmo ou a uma criatura tocada em valor igual aos pontos gastos.</li>
-                <li><strong>Retribuição (Nv 2):</strong> Quando você atinge uma criatura com um ataque, pode gastar pontos para causar dano radiante extra.</li>
-            </ul>
+            <p>O Mártir canaliza o sofrimento recebido em energia, transformando sua dor em uma fonte de renovação. Sempre que você sofrer dano (não incluso pontos de vida temporários), metade do dano recebido, arredondado para baixo, é convertido em pontos de cura.</p>
+            <p><b>Máximo:</b> 10 vezes seu nível de Mártir. Os pontos desaparecem em um descanso longo.</p>
+            <p><b>Usos:</b> Ação Bônus para curar a si mesmo ou Ação para curar outros (toque). Pode gastar 5 pontos para curar doença ou neutralizar veneno (não afeta mortos-vivos e construtos).</p>
+            <p><b>Dano Extra (Nível 2):</b> Quando atingir com ataque corpo-a-corpo, pode gastar até metade da reserva atual para causar dano radiante adicional.</p>
+            <h5>Outro tipo de sofrimento</h5>
+            <p>O Mestre pode oferecer pontos de sofrimento em momentos oportunos de trauma ou sacrifício narrativo.</p>
         </description>
         <sheet>
-            <description>Reserva Max: {{level:martir}}0. Gasta pontos para curar ou causar dano extra.</description>
+            <description>Reserva Max: {{level:martir}}0. Gasta pontos para curar (Ação/Bônus) ou neutralizar veneno/doença (5 pts). Nv 2: Gasta até metade da reserva para dano radiante extra.</description>
         </sheet>
     </element>
 
-    <element name="Sacrifício Altruísta" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SACRIFICIO_ALTRUISTA">
+    <element name="Estilo de Luta" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ESTILO_DE_LUTA">
         <description>
-            <p>Sua vontade de proteger supera seu instinto de preservação. Quando uma criatura que você pode ver a até 18 metros de você sofrer dano, você pode usar sua reação para se tornar o alvo desse dano.</p>
-            <p>Você sofre o dano total que a criatura teria sofrido, e esse dano não pode ser reduzido por suas resistências ou imunidades, pois você o aceita voluntariamente.</p>
+            <p>Você adota um estilo de combate particular. Escolha uma das opções de estilo de luta da classe Paladino.</p>
         </description>
-        <sheet action="Reaction" usage="{{sacrificio:usage}}/Descanso Curto">
-            <description>Intercepta dano de aliado a 18m. Dano ignorar resistências.</description>
+        <rules>
+            <select type="Class Feature" name="Estilo de Luta" supports="Fighting Style, Paladin" />
+        </rules>
+    </element>
+
+    <element name="Conjuração" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CONJURACAO">
+        <description>
+            <p>Um evento do seu passado ou algum ser divino deixou uma marca em você, infundindo-o com magia. A fonte desse poder, independente da sua origem, flui em suas magias.</p>
+            <p><b>Preparando e Conjurando Magias:</b> Você prepara a lista de magias selecionando-as da lista de magias de Mártir (Paladino). Você seleciona um número de magias igual ao seu modificador de Carisma + metade do seu nível de Mártir (mínimo de uma magia).</p>
+            <p><b>Habilidade de Conjuração:</b> Carisma é a sua habilidade para você conjurar suas magias, já que seu poder deriva da força de vontade e empatia.</p>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Martir" ability="Charisma" prepare="true" allowReplace="true">
+            <list>Paladin</list>
+        </spellcasting>
+    </element>
+
+    <element name="Flagelação Arcana" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_FLAGELACAO_ARCANA">
+        <description>
+            <p>Como uma ação bônus, você pode sofrer 1d10 de dano para criar um espaço de magia de 1º nível. Você pode sofrer +1d10 para cada nível acima do primeiro. Você não pode elevar a um nível que não tenha acesso nem conjurar magias de cura com esses espaços.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Sofre 1d10 por nível de círculo para criar um espaço de magia temporário (Exceto para cura).</description>
         </sheet>
     </element>
+
+    <element name="Fardo" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_FARDO">
+        <description>
+            <p>Você escolhe seguir o caminho de um dos arquétipos de Mártir. Sua escolha lhe concede características no 3°, 7°, 15° e 20° nível.</p>
+            <p><b>Magias de Fardo:</b> Você sempre as terá preparadas e elas não contam no seu limite diário.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+
+    <element name="Incremento no Valor de Habilidade" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ASI">
+        <description>
+            <p>Você pode aumentar um valor de habilidade em 2 ou dois valores em 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Aumento no Valor de Atributo" supports="Ability Score Improvement" />
+        </rules>
+    </element>
+
+    <element name="Ataque Extra" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EXTRA_ATTACK">
+        <description>
+            <p>Você pode atacar duas vezes, ao invés de uma, quando usar a ação de Ataque durante seu turno.</p>
+        </description>
+        <sheet>
+            <description>Pode atacar duas vezes ao realizar a ação de Ataque.</description>
+        </sheet>
+        <rules>
+            <stat name="extra attack:count" value="1" level="5" bonus="extra attack" />
+        </rules>
+    </element>
+
+    <element name="Empatia Dolorosa" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA">
+        <description>
+            <p>Como uma ação, toque uma criatura sofrendo de doença, exaustão, veneno, envenenado, atordoado, cego ou surdo. Você recebe o efeito prejudicial para si e a criatura fica livre dele.</p>
+        </description>
+        <sheet action="Action">
+            <description>Absorve condição (Doença, Veneno, Atordoado, Cego, Surdo, Exaustão) de criatura tocada para si.</description>
+        </sheet>
+    </element>
+
+    <element name="Inspiração Vingativa" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_INSPIRACAO_VINGATIVA">
+        <description>
+            <p>Sempre que for ferido por um inimigo, aliados que viram ou ouviram o ataque ganham bônus de dano extra no próximo ataque igual ao seu modificador de Carisma.</p>
+        </description>
+        <sheet>
+            <description>Aliados ganham +{{charisma:modifier}} de dano no próximo ataque contra quem feriu o Mártir.</description>
+        </sheet>
+    </element>
+
+    <element name="Adaptação Retaliatória" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ADAPTACAO_RETALIATORIA">
+        <description>
+            <p>Ao sofrer dano, ganha resistência àquele tipo até o fim do próximo turno. Pode gastar ação para estender ou usar Flagelação Arcana (1d10 por tipo) para adquirir novas resistências. Reduz dano do Sacrifício Altruísta.</p>
+        </description>
+        <sheet>
+            <description>Ganha resistência ao tipo de dano sofrido até o fim do próximo turno. Pode reduzir dano do Sacrifício Altruísta.</description>
+        </sheet>
+    </element>
+
+    <element name="Cadeia de Penitência" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CADEIA_DE_PENITENCIA">
+        <description>
+            <p>Uma vez por descanso longo, quando sofrer dano, escolha uma criatura que possa te ver/ouvir. Ela sofre dano psíquico igual ao que você sofreu.</p>
+        </description>
+        <sheet usage="1/Descanso Longo">
+            <description>Reflete dano sofrido como dano psíquico em um alvo visível.</description>
+        </sheet>
+    </element>
+
+    <element name="O Mártir" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_O_MARTIR_18">
+        <description>
+            <p>Como uma ação, toque uma criatura morta ou caída nos últimos 10 minutos. Você morre imediatamente e ela volta com todos os PV restaurados. Seu corpo não pode ser ressuscitado por 7 dias.</p>
+        </description>
+        <sheet action="Action">
+            <description>Sacrifica sua vida para ressuscitar criatura com 100% PV.</description>
+        </sheet>
+    </element>
+
+    <element name="Fardo da Misericordia" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_MISERICORDIA">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir carrega o peso de perdoar e mostrar compaixão, mesmo diante da adversidade e da injustiça.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Palavra Curativa, Santuário</i></td></tr>
+                <tr><td>5º</td><td><i>Cegueira/Surdez, Vínculo Protetor</i></td></tr>
+                <tr><td>9º</td><td><i>Palavra Curativa em Massa, Sinal de Esperança</i></td></tr>
+                <tr><td>13º</td><td><i>Guardião da Fé, Pele de Pedra</i></td></tr>
+                <tr><td>17º</td><td><i>Consagrar, Restauração Maior</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WARDING_BOND" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_PIEDADE_COMPASSIVA" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_GRACA_DOS_AFLITOS" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_REDENCAO_MISERICORDIA" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RESSURREICAO_MISERICORDIA" level="20" />
+        </rules>
+    </element>
+
+            <element name="Piedade Compassiva" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_PIEDADE_COMPASSIVA">
+                <description>
+                    <p>Quando você ou um aliado reduz uma criatura hostil a 0 pontos de vida e impede essa criatura de morrer, você e até mais 3 aliados à sua escolha ganham uma quantidade de pontos de vida temporários igual ao seu modificador de Carisma + bônus de proficiência.</p>
+                </description>
+                <sheet>
+                    <description>Ao poupar uma criatura, você e 3 aliados ganham {{piedade:hp}} PV temporários.</description>
+                </sheet>
+                <rules>
+                    <stat name="piedade:hp" value="charisma:modifier" />
+                    <stat name="piedade:hp" value="proficiency" />
+                </rules>
+            </element>
+        
+            <element name="Graça dos Aflitos" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_GRACA_DOS_AFLITOS">
+                <description>
+                    <p>Utilizando os pontos acumulados em seu Poço de Sofrimento, o Mártir pode canalizar seu sofrimento para acessar poderes divinos, transformando a dor em atos milagrosos.</p>
+                    <p>Você pode gastar pontos do seu Poço de Sofrimento para conjurar as seguintes magias, sem usar um espaço de magia:</p>
+                    <ul>
+                        <li><strong>Proteção contra o Bem e Mal:</strong> 10 pontos (Nível 7)</li>
+                        <li><strong>Acalmar Emoções:</strong> 20 pontos (Nível 7)</li>
+                        <li><strong>Andar na Água ou Criar Alimento:</strong> 40 pontos (Nível 9)</li>
+                        <li><strong>Dissipar Bem e Mal:</strong> 60 pontos (Nível 13)</li>
+                        <li><strong>Criar Passagem:</strong> 80 pontos (Nível 17)</li>
+                        <li><strong>Banquete dos Heróis:</strong> 100 pontos (Nível 20)</li>
+                    </ul>
+                </description>
+                <sheet>
+                    <description>Pode gastar pontos do Poço de Sofrimento para conjurar magias específicas (Custo: 10 a 100 pts).</description>
+                </sheet>
+            </element>
+        
+            <element name="Redenção" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_REDENCAO_MISERICORDIA">
+                <description>
+                    <p>Quando você poupar a vida de uma criatura hostil, você pode fazer com que ela realize um teste de resistência de Carisma.</p>
+                    <p>Gaste pontos do seu Poço de Sofrimento para estabelecer a CD do teste, que será igual ao número de pontos usados (máximo de 20 pontos).</p>
+                    <p>Se a criatura hostil falhar no teste e não tiver nascido má, você muda o alinhamento dela para bom, ao invés de neutro ou mau.</p>
+                </description>
+                <sheet>
+                    <description>Ao poupar um inimigo, gaste até 20 pts do Poço para definir a CD de Carisma. Falha muda alinhamento para Bom.</description>
+                </sheet>
+            </element>
+        
+            <element name="Ressurreição" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_RESSURREICAO_MISERICORDIA">
+                <description>
+                    <p>Após usar a habilidade O Mártir, você, em vez de precisar de 7 dias para ser revivido, é revivido automaticamente 3 dias depois.</p>
+                </description>
+                <sheet>
+                    <description>Após usar "O Mártir", você revive automaticamente em 3 dias (em vez de 7).</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Justica" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_JUSTICA">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir luta incansavelmente pela igualdade, equidade e justiça para todos, aceitando o peso de combater a opressão e a tirania.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Perdição, Marca do Caçador</i></td></tr>
+                <tr><td>5º</td><td><i>Imobilizar Pessoa, Passo Nebuloso</i></td></tr>
+                <tr><td>9º</td><td><i>Velocidade, Proteção contra Energia</i></td></tr>
+                <tr><td>13º</td><td><i>Banimento, Porta Dimensional</i></td></tr>
+                <tr><td>17º</td><td><i>Imobilizar Monstro, Vidência</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RETRIBUICAO_JUSTICA" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CAUSA_JUSTA" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_SENTENCA_EQUITATIVA" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CARMA_JUSTICA" level="20" />
+        </rules>
+    </element>
+
+            <element name="Retribuição" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_RETRIBUICAO_JUSTICA">
+                <description>
+                    <p>Quando usar a habilidade Sacrifício Altruísta você causa 5 pontos de dano radiante à criatura que atacou seu aliado. Ao chegar no nível 9, você causa 10 de dano e, ao chegar no nível 17, você causa 15 de dano.</p>
+                </description>
+                <sheet>
+                    <description>Ao usar Sacrifício Altruísta, causa {{retribuicao:dano}} de dano radiante ao atacante.</description>
+                </sheet>
+                <rules>
+                    <stat name="retribuicao:dano" value="5" level="3" />
+                    <stat name="retribuicao:dano" value="10" level="9" />
+                    <stat name="retribuicao:dano" value="15" level="17" />
+                </rules>
+            </element>
+        
+            <element name="Causa Justa" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CAUSA_JUSTA">
+                <description>
+                    <p>Sempre que você atacar uma criatura que atacou você ou um aliado na última rodada, você pode adicionar um bônus de dano ao ataque igual ao seu modificador de Carisma.</p>
+                </description>
+                <sheet>
+                    <description>Bônus de +{{charisma:modifier}} no dano contra quem atacou você ou aliado na rodada anterior.</description>
+                </sheet>
+            </element>
+        
+            <element name="Sentença Equitativa" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SENTENCA_EQUITATIVA">
+                <description>
+                    <p>Depois de absorver um efeito negativo da habilidade Empatia Dolorosa, você pode, com uma ação, devolver o efeito para a criatura responsável pelo aliado ter tido aquele efeito.</p>
+                    <p>Você pode usar essa habilidade um número de vezes igual ao seu modificador de Carisma e deverá realizar um descanso longo para recuperar os usos.</p>
+                </description>
+                <sheet action="Action" usage="{{charisma:modifier}}/Descanso Longo">
+                    <description>Devolve o efeito absorvido pela Empatia Dolorosa para a criatura de origem.</description>
+                </sheet>
+            </element>
+        
+            <element name="Carma" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CARMA_JUSTICA">
+                <description>
+                    <p>Você vincula uma criatura que você possa ver e que também possa ver você em uma corrente espectral. Enquanto a corrente estiver ativa, qualquer dano que um sofrer, o outro também sofrerá a mesma quantidade de dano.</p>
+                    <p>A corrente tem um alcance de 12 metros e o efeito acaba após 1 minuto ou a criatura vinculada se afastar mais do que o alcance da corrente.</p>
+                    <p>Após usar essa habilidade, deverá fazer um descanso longo para usá-la novamente.</p>
+                </description>
+                <sheet action="Action" usage="1/Descanso Longo">
+                    <description>Vincula-se a um alvo (12m) por 1 min. Todo o dano sofrido por um é replicado no outro.</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Punicao" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_PUNICAO">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir suporta o sofrimento físico e emocional em nome de uma causa maior, usando sua própria dor como fonte de força para punir.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Perdição, Repreensão Infernal</i></td></tr>
+                <tr><td>5º</td><td><i>Coroa de Loucura, Imobilizar Pessoa</i></td></tr>
+                <tr><td>9º</td><td><i>Medo, Rogar Maldição</i></td></tr>
+                <tr><td>13º</td><td><i>Assassino Fantasmagórico, Confusão</i></td></tr>
+                <tr><td>17º</td><td><i>Imobilizar Monstro, Sonho</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_CROWN_OF_MADNESS" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_FEAR" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_KILLER" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DREAM" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_AUTOLESAO_REDENTORA" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_SACRIFICIO_EGOISTA" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CORRENTES_CONDENACAO" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_FURIA_CASTIGADOR" level="20" />
+        </rules>
+    </element>
+
+            <element name="Autolesão Redentora" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_AUTOLESAO_REDENTORA">
+                <description>
+                    <p>Você pode causar dano a si mesmo com uma ação; você ganha pontos de sofrimento para cada ponto de dano causado a si mesmo, ao invés de apenas metade.</p>
+                </description>
+                <sheet action="Action">
+                    <description>Causa dano a si mesmo para ganhar pontos no Poço de Sofrimento na proporção de 1:1.</description>
+                </sheet>
+            </element>
+        
+            <element name="Sacrifício Egoísta" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SACRIFICIO_EGOISTA">
+                <description>
+                    <p>Quando usar a habilidade Sacrifício Altruísta, você pode escolher fazer com que a criatura aliada e você sofram metade do dano do ataque. Após isso, o próximo ataque que você fizer na rodada não consome pontos do poço de sofrimento para causar dano adicional, e com o dano causado na criatura, esse ataque enche seu poço de sofrimento.</p>
+                </description>
+                <sheet action="Special">
+                    <description>Ao usar Sacrifício Altruísta, divide o dano com o aliado. Próximo ataque na rodada não gasta pontos do poço para dano extra e enche o poço com o dano causado.</description>
+                </sheet>
+            </element>
+        
+            <element name="Correntes da Condenação" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CORRENTES_CONDENACAO">
+                <description>
+                    <p>Você pode usar a habilidade Cadeia de Penitência duas vezes antes de terminar um descanso longo.</p>
+                </description>
+                <sheet>
+                    <description>Você pode usar Cadeia de Penitência duas vezes por descanso longo.</description>
+                </sheet>
+                <rules>
+                    <stat name="cadeia:usage" value="1" />
+                </rules>
+            </element>
+        
+            <element name="Fúria Daquele que Castiga" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_FURIA_CASTIGADOR">
+                <description>
+                    <p>Ao usar a habilidade O Mártir, você pode, ao invés de reviver a criatura e ter os efeitos normais, deixá-la caída sem ajuda e entrar em um estado de frenesi.</p>
+                    <p>O estado de frenesi dura 1 minuto; você possui resistência a todos os danos, vantagem em todos os ataques e seu poço de sofrimento se enche ao máximo ao final de cada rodada. Após o tempo acabar, você morre e deve esperar 7 dias para ser revivido novamente.</p>
+                </description>
+                <sheet action="Action">
+                    <description>Em vez de reviver com "O Mártir", entra em frenesi por 1 min: resiste a tudo, vantagem em ataques e poço enche todo turno. Morre após o efeito.</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Igualdade" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_IGUALDADE">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir suporta a dor em prol da "balança" sempre estar igual para os dois lados.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Detectar o Bem e Mal, Proteção contra o Bem e Mal</i></td></tr>
+                <tr><td>5º</td><td><i>Augúrio, Vínculo Protetor</i></td></tr>
+                <tr><td>9º</td><td><i>Espíritos Guardiões, Revivificar</i></td></tr>
+                <tr><td>13º</td><td><i>Banimento, Guardião da Fé</i></td></tr>
+                <tr><td>17º</td><td><i>Dissipar o Bem e Mal, Reviver os Mortos</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WARDING_BOND" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ESCALA_HARMONICA" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_COMPARTILHAR_FARDO" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CAMPO_EQUILIBRIO" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_EQUIDADE_MARTIR" level="20" />
+        </rules>
+    </element>
+
+            <element name="Escala Harmônica" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ESCALA_HARMONICA">
+                <description>
+                    <p>Quando você acertar um ataque em uma criatura, role seu dano; se o dano do seu ataque for menor do que o dano que você sofreu na última rodada, você pode adicionar +10 de dano ao ataque. Se o seu dano for maior que o dano que você sofreu na última rodada, você diminui -10 de dano.</p>
+                </description>
+                <sheet>
+                    <description>Se dano causado &lt; dano sofrido na última rodada: +10 de dano. Se dano causado > dano sofrido: -10 de dano.</description>
+                </sheet>
+            </element>
+        
+            <element name="Compartilhar Fardo" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_COMPARTILHAR_FARDO">
+                <description>
+                    <p>Quando usar a habilidade Sacrifício Altruísta, você pode escolher, ao invés de absorver o dano para você, dividir o dano entre você, a criatura que sofreu o ataque e a criatura que desferiu o ataque. Você pode usar essa habilidade um número de vezes igual ao seu bônus de proficiência por descanso longo.</p>
+                </description>
+                <sheet action="Reaction" usage="{{proficiency}}/Descanso Longo">
+                    <description>Ao usar Sacrifício Altruísta, divide o dano igualmente entre você, o alvo original e o atacante.</description>
+                </sheet>
+            </element>
+        
+            <element name="Campo de Equilíbrio" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CAMPO_EQUILIBRIO">
+                <description>
+                    <p>Uma vez por descanso longo, você pode, com uma ação, criar uma zona de equilíbrio num raio de 9 metros centrado em você, que dura 1 minuto. Dentro desta área, nenhuma criatura pode ter vantagem ou desvantagem em ataques, testes de habilidade ou salvaguardas.</p>
+                </description>
+                <sheet action="Action" usage="1/Descanso Longo">
+                    <description>Cria aura de 9m por 1 min. Ninguém possui vantagem ou desvantagem na área.</description>
+                </sheet>
+            </element>
+        
+            <element name="Equidade" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EQUIDADE_MARTIR">
+                <description>
+                    <p>Depois de absorver um efeito negativo da habilidade Empatia Dolorosa, você pode, com uma ação, fazer com que todas as criaturas a 18 metros tenham que realizar um teste de resistência contra sua CD de magias. Se falharem, elas ganham todas as penalidades absorvidas por você, caso não sejam imunes aos efeitos.</p>
+                </description>
+                <sheet action="Action">
+                    <description>Após usar Empatia Dolorosa, força teste (CD {{martir:spell:save}}) em criaturas a 18m para que sofram as mesmas penalidades absorvidas.</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Verdade" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_VERDADE">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir enfrenta a hostilidade e a descrença enquanto busca defender a verdade e a honestidade em um mundo de mentiras e corrupção.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Alarme, Detectar Magia</i></td></tr>
+                <tr><td>5º</td><td><i>Raio Lunar, Ver o Invisível</i></td></tr>
+                <tr><td>9º</td><td><i>Contramagia, Indetectável</i></td></tr>
+                <tr><td>13º</td><td><i>Aura de Pureza, Banimento</i></td></tr>
+                <tr><td>17º</td><td><i>Imobilizar Monstro, Vidência</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ALARM" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_PURITY" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_DESMASCARAMENTO_PUNITIVO" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_GRACA_DOS_ENGANADOS" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_PRESENCA_INQUISIDORA" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_OLHAR_PENITENCIA_VERDADE" level="20" />
+        </rules>
+    </element>
+
+            <element name="Desmascaramento Punitivo" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_DESMASCARAMENTO_PUNITIVO">
+                <description>
+                    <p>Sempre que usar a habilidade Flagelação Arcana, além de criar um espaço de magia, todas as criaturas a até 9 metros de você que estiverem escondidas também sofrem a mesma quantidade de dano que você.</p>
+                </description>
+                <sheet>
+                    <description>Ao usar Flagelação Arcana, criaturas escondidas a 9m sofrem o mesmo dano que você.</description>
+                </sheet>
+            </element>
+        
+            <element name="Graça dos Enganados" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_GRACA_DOS_ENGANADOS">
+                <description>
+                    <p>Utilizando os pontos acumulados em seu Poço de Sofrimento, o Mártir pode canalizar seu sofrimento para acessar poderes divinos, transformando a dor em atos milagrosos.</p>
+                    <p>Você pode gastar pontos do seu Poço de Sofrimento para conjurar as seguintes magias, sem usar um espaço de magia:</p>
+                    <ul>
+                        <li><strong>Detectar o Bem e Mal ou Detectar Magia:</strong> 10 pontos (Nível 7)</li>
+                        <li><strong>Ver o Invisível ou Zona da Verdade:</strong> 20 pontos (Nível 7)</li>
+                        <li><strong>Clarividência:</strong> 40 pontos (Nível 9)</li>
+                        <li><strong>Adivinhação:</strong> 60 pontos (Nível 13)</li>
+                        <li><strong>Conhecimento Lendário:</strong> 80 pontos (Nível 17)</li>
+                        <li><strong>Visão da Verdade:</strong> 100 pontos (Nível 20)</li>
+                    </ul>
+                </description>
+                <sheet>
+                    <description>Pode gastar pontos do Poço de Sofrimento para conjurar magias de revelação (Custo: 10 a 100 pts).</description>
+                </sheet>
+            </element>
+        
+            <element name="Presença Inquisidora" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_PRESENCA_INQUISIDORA">
+                <description>
+                    <p>A presença do Mártir causa desconforto em mentirosos. Todas as criaturas que tiverem contato visual com o Mártir sentem um enjoo e uma dor de cabeça ao mentirem, causando desvantagem em qualquer teste de habilidade de Furtividade, Prestidigitação, Atuação, Enganação e Intimidação.</p>
+                    <p>Além disso, criaturas têm desvantagem para conjurar magias da escola de ilusão ao fazerem isso com contato visual com o Mártir.</p>
+                </description>
+                <sheet>
+                    <description>Criaturas em contato visual têm desvantagem em perícias sociais/furtivas ao mentir e desvantagem em magias de Ilusão.</description>
+                </sheet>
+            </element>
+        
+            <element name="Olhar da Penitência" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_OLHAR_PENITENCIA_VERDADE">
+                <description>
+                    <p>Como uma ação, você pode fixar seu olhar em uma criatura dentro de 60 metros. A criatura deve fazer um teste de resistência de Carisma contra sua CD de magias.</p>
+                    <p>Em uma falha, todas as mentiras e ilusões criadas pela criatura nas últimas 24 horas são reveladas, incluindo sua forma verdadeira. A criatura sofre 10d10 de dano psíquico e ganha uma aura de luz por 1 hora (revelando sua posição através de paredes). Enquanto a aura durar, a criatura sofre 1d10 de dano psíquico sempre que tentar mentir ou usar ilusões conforme a Presença Inquisidora.</p>
+                </description>
+                <sheet action="Action" usage="1/Descanso Longo">
+                    <description>Alvo (60m) faz Carisma Save. Falha: Revela mentiras/forma real, 10d10 dano psíquico e aura reveladora por 1 hora. Sofre 1d10 dano ao tentar enganar.</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Redencao" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_REDENCAO">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir busca redimir seus próprios erros e pecados através do sacrifício e da expiação, oferecendo-se como exemplo de transformação e perdão.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Santuário, Sono</i></td></tr>
+                <tr><td>5º</td><td><i>Imobilizar Pessoa, Acalmar Emoções</i></td></tr>
+                <tr><td>9º</td><td><i>Contramágica, Padrão Hipnótico</i></td></tr>
+                <tr><td>13º</td><td><i>Esfera Resiliente de Otiluke, Pele Rochosa</i></td></tr>
+                <tr><td>17º</td><td><i>Imobilizar Monstro, Muralha de Energia</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_REPARACAO_ERRO" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_REMISSAO_MARTIR" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_FOCO_RETENTOR" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_REDENCAO_SOLITARIA" level="20" />
+        </rules>
+    </element>
+
+            <element name="Reparação do Erro" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_REPARACAO_ERRO">
+                <description>
+                    <p>Você tem um compromisso em corrigir seus erros. Sempre que você errar um ataque corpo-a-corpo, você pode escolher ganhar vantagem no próximo ataque corpo-a-corpo que fizer antes do final do seu próximo turno.</p>
+                    <p>Você pode usar essa habilidade uma quantidade de vezes igual ao seu modificador de Carisma e recupera com descanso curto.</p>
+                </description>
+                <sheet usage="{{charisma:modifier}}/Descanso Curto">
+                    <description>Se errar um ataque corpo-a-corpo, pode ganhar vantagem no próximo até o fim do seu próximo turno.</description>
+                </sheet>
+            </element>
+        
+            <element name="Remissão" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_REMISSAO_MARTIR">
+                <description>
+                    <p>Sempre que você falhar em uma jogada de ataque, teste de resistência ou teste de habilidade, você pode escolher ganhar pontos de vida temporários.</p>
+                    <p>A quantidade de pontos de vida temporários aumenta conforme seu nível de Mártir:</p>
+                    <ul>
+                        <li><strong>Nível 7:</strong> 5 pontos</li>
+                        <li><strong>Nível 9:</strong> 10 pontos</li>
+                        <li><strong>Nível 15:</strong> 15 pontos</li>
+                        <li><strong>Nível 17:</strong> 20 pontos</li>
+                    </ul>
+                    <p>Você pode usar essa habilidade uma quantidade de vezes igual ao seu modificador de Carisma e recupera com descanso curto.</p>
+                </description>
+                <sheet usage="{{charisma:modifier}}/Descanso Curto">
+                    <description>Ao falhar em ataque, resistência ou teste, ganha {{remissao:hp}} PV temporários.</description>
+                </sheet>
+                <rules>
+                    <stat name="remissao:hp" value="5" level="7" />
+                    <stat name="remissao:hp" value="10" level="9" />
+                    <stat name="remissao:hp" value="15" level="15" />
+                    <stat name="remissao:hp" value="20" level="17" />
+                </rules>
+            </element>
+        
+            <element name="Foco Retentor" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_FOCO_RETENTOR">
+                <description>
+                    <p>Agora você é capaz de ajudar os outros a se redimirem. Todas as criaturas à sua escolha, a um alcance de 4,5 metros, também possuem as suas habilidades Reparação do Erro e Remissão.</p>
+                    <p>Você pode usar essa habilidade uma quantidade de vezes igual ao seu modificador de Carisma e recupera com descanso curto.</p>
+                    <p>Seus aliados ganham usos próprios dessas habilidades, que são iguais à quantidade de Carisma deles e recuperam em um descanso curto. Caso o aliado saia do seu alcance, ele perde a habilidade.</p>
+                </description>
+                <sheet usage="{{charisma:modifier}}/Descanso Curto">
+                    <description>Aliados a 4,5m ganham acesso às suas habilidades Reparação do Erro e Remissão (usos baseados no Carisma deles).</description>
+                </sheet>
+            </element>
+        
+            <element name="Redenção Solitária" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_REDENCAO_SOLITARIA">
+                <description>
+                    <p>Uma vez que você for reduzido a 0 pontos de vida e não morrer imediatamente, você pode usar sua reação para gastar o uso da habilidade O Mártir e imediatamente recuperar todos os seus pontos de vida.</p>
+                </description>
+                <sheet action="Reaction">
+                    <description>Ao cair a 0 PV, pode gastar o uso de "O Mártir" para recuperar todos os seus PV imediatamente.</description>
+                </sheet>
+            </element>
+    
+    <element name="Fardo da Esperanca" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_ESPERANCA">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir carrega o peso de manter viva a chama da esperança mesmo nos momentos mais sombrios, inspirando os outros a acreditar em um futuro melhor.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Proteção contra o Bem e Mal, Santuário</i></td></tr>
+                <tr><td>5º</td><td><i>Restauração Menor, Zona da Verdade</i></td></tr>
+                <tr><td>9º</td><td><i>Sinal de Esperança, Dissipar Magia</i></td></tr>
+                <tr><td>13º</td><td><i>Movimentação Livre, Guardião da Fé</i></td></tr>
+                <tr><td>17º</td><td><i>Comunhão, Coluna de Chamas</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_RECUPERAR_FE" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_CHAMA_PERSISTENCIA" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_LAGRIMAS_SALVACAO" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_SACRIFICIO_DEFINITIVO" level="20" />
+        </rules>
+    </element>
+
+            <element name="Recuperar Fé" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_RECUPERAR_FE">
+                <description>
+                    <p>Seu poço do sofrimento também ganha pontos pela metade da cura que você recebe de outras criaturas.</p>
+                </description>
+                <sheet>
+                    <description>Seu Poço de Sofrimento também acumula pontos iguais à metade da cura que você recebe de outras fontes.</description>
+                </sheet>
+            </element>
+        
+            <element name="Chama da Persistência" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_CHAMA_PERSISTENCIA">
+                <description>
+                    <p>Quando você e seus aliados forem vítimas do mesmo efeito em área, armadilha, magia ou qualquer habilidade que afete você e pelo menos mais um aliado ao mesmo tempo, você pode escolher sofrer desvantagem no teste de resistência para que todas as outras criaturas que farão o mesmo teste possuam vantagem.</p>
+                </description>
+                <sheet>
+                    <description>Pode escolher desvantagem em um teste de resistência de área para conceder vantagem a todos os aliados afetados pelo mesmo efeito.</description>
+                </sheet>
+            </element>
+        
+            <element name="Lágrimas da Salvação" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_LAGRIMAS_SALVACAO">
+                <description>
+                    <p>Você não gasta reações para a habilidade Sacrifício Altruísta, podendo utilizá-la quantas vezes quiser durante cada rodada. Porém, você não pode usá-la para a mesma criatura duas vezes na mesma rodada. Além disso, você ganha o dobro de usos para esta habilidade.</p>
+                </description>
+                <sheet>
+                    <description>Sacrifício Altruísta não gasta reação e pode ser usado várias vezes por rodada (limite de 1/criatura). Seus usos totais são dobrados.</description>
+                </sheet>
+                <rules>
+                    <stat name="sacrificio:usos" value="sacrificio:usos" />
+                </rules>
+            </element>
+        
+            <element name="Sacrifício Definitivo" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_SACRIFICIO_DEFINITIVO">
+                <description>
+                    <p>Você pode usar sua ação para reviver todos os aliados que morreram a até pelo menos 10 minutos e recuperar metade dos pontos de vida dos aliados a até 12 metros de você.</p>
+                    <p><strong>Morte Definitiva:</strong> Após fazer isso, você tem sua morte definitiva e não poderá mais ser revivido por nenhuma forma, nunca.</p>
+                </description>
+                <sheet action="Action">
+                    <description>Revive todos os aliados mortos (até 10 min) e cura 50% de vida de aliados a 12m. RESULTADO: Sua morte é definitiva e irreversível.</description>
+                </sheet>
+            </element>
+
+    <element name="Fardo da Liberdade" type="Archetype" source="Felix Klaus" id="ID_FELIX_ARCHETYPE_LIBERDADE">
+        <supports>Martir</supports>
+        <description>
+            <p>Este mártir luta pela liberdade e autonomia, enfrentando a opressão e a tirania em nome da libertação de si mesmo e dos outros, mantendo-se firme em sua resistência aos sistemas injustos e autoritários, apesar das consequências.</p>
+            <h5>MAGIAS DO FARDO</h5>
+            <p>Você ganha magias de fardo nos níveis de mártir listados. Uma vez que você ganha acesso a uma magia de fardo, você sempre a terá preparada.</p>
+            <table>
+                <thead>
+                    <tr><td>Nível de Mártir</td><td>Magias</td></tr>
+                </thead>
+                <tr><td>3º</td><td><i>Área Escorregadia, Recuo Acelerado</i></td></tr>
+                <tr><td>5º</td><td><i>Passos sem Pegadas, Patas de Aranha</i></td></tr>
+                <tr><td>9º</td><td><i>Andar na Água, Piscar</i></td></tr>
+                <tr><td>13º</td><td><i>Movimentação Livre, Porta Dimensional</i></td></tr>
+                <tr><td>17º</td><td><i>Criar Passagem, Despertar</i></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GREASE" level="3" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" level="3" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="5" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" level="5" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_WATER_WALK" level="9" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BLINK" level="9" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="13" spellcasting="Martir" prepared="true" />
+            
+            <grant type="Spell" id="ID_PHB_SPELL_PASSWALL" level="17" spellcasting="Martir" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="17" spellcasting="Martir" prepared="true" />
+
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_LIBERAR_CAMINHO" level="3" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_LIBERTAR_MARTIR" level="7" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASAS_DA_LIBERDADE" level="15" />
+            <grant type="Class Feature" id="ID_FELIX_FEATURE_ENCERRAR_SOFRIMENTO" level="20" />
+        </rules>
+    </element>
+
+            <element name="Liberar Caminho" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_LIBERAR_CAMINHO">
+                <description>
+                    <p>Você pode usar sua ação bônus para causar 1d6 de dano em si mesmo e conjurar a magia Passo Nebuloso em si mesmo ou em um aliado a até 12 metros de você como parte da ação.</p>
+                </description>
+                <sheet action="Bonus Action">
+                    <description>Sofre 1d6 de dano para conjurar Passo Nebuloso em si ou aliado a 12m.</description>
+                </sheet>
+            </element>
+        
+            <element name="Libertar" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_LIBERTAR_MARTIR">
+                <description>
+                    <p>Quando você usa a habilidade Empatia Dolorosa em um aliado que esteja paralisado ou impedido, ao invés de pegar a condição para si você a encerra.</p>
+                </description>
+                <sheet>
+                    <description>Empatia Dolorosa encerra as condições Paralisado ou Impedido em aliados em vez de absorvê-las.</description>
+                </sheet>
+            </element>
+        
+            <element name="Asas da Liberdade" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ASAS_DA_LIBERDADE">
+                <description>
+                    <p>Você pode usar sua ação para causar 2d6 de dano em si mesmo e conjurar Movimentação Livre em si mesmo ou a um aliado a 12 metros de você por menos tempo sem precisar de componentes e sem gastar espaços de magia. Você fica sob os efeitos da magia até o final do seu próximo turno.</p>
+                </description>
+                <sheet action="Action">
+                    <description>Sofre 2d6 de dano para conjurar Movimentação Livre (até o fim do seu próximo turno) em si ou aliado a 12m.</description>
+                </sheet>
+            </element>
+        
+            <element name="Encerrar Sofrimento" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ENCERRAR_SOFRIMENTO">
+                <description>
+                    <p>Como o ápice do seu poder, você pode libertar-se completamente do fardo de ser um Mártir. Ao usar a habilidade O Mártir, você pode apenas estabilizar a criatura e você assume uma nova classe (deve-se criar uma nova ficha de mesmo nível), recuperando todos os pontos de vida perdidos.</p>
+                </description>
+                <sheet action="Special">
+                    <description>Ao usar "O Mártir", estabiliza o alvo e você troca de classe (nova ficha de mesmo nível) com HP cheio.</description>
+                </sheet>
+            </element>
+
+    <element name="Magias de Martir" type="Spell List" source="Felix Klaus" id="ID_FELIX_SPELL_LIST_MARTIR">
+        <grant id="ID_PHB_SPELL_BLESS" level="1" />
+        <grant id="ID_PHB_SPELL_COMMAND" level="1" />
+        <grant id="ID_PHB_SPELL_CURE_WOUNDS" level="1" />
+        <grant id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="1" />
+        <grant id="ID_PHB_SPELL_AID" level="2" />
+        <grant id="ID_PHB_SPELL_LESSER_RESTORATION" level="2" />
+        <grant id="ID_PHB_SPELL_REVIVIFY" level="3" />
+        <grant id="ID_PHB_SPELL_DEATH_WARD" level="4" />
+        <grant id="ID_PHB_SPELL_RAISE_DEAD" level="5" />
+    </element>
+
 </elements>
