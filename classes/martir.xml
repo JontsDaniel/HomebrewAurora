@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="1.3.0">
+        <update version="1.0">
             <file name="martir.xml" url="https://raw.githubusercontent.com/JontsDaniel/HomebrewAurora/main/classes/martir.xml" />
         </update>
     </info>
@@ -920,5 +920,6 @@
     </element>
 
 </elements>
+
 
 
