@@ -73,30 +73,40 @@
             <select type="Archetype" name="Censura (Arquétipo)" supports="Vingador" level="3" />
             <grant type="Class Feature" id="ID_BE_FEATURE_CANALIZAR_DIVINDADE" level="3" />
 
-            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="4" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="8" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="12" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="16" />
+            <grant type="Class Feature" id="ID_BE_FEATURE_ASI_AUTOMATICO" level="19" />
+
             <grant type="Class Feature" id="ID_BE_FEATURE_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_BE_FEATURE_LAMINA_DO_ZEALOT" level="6" />
             <grant type="Class Feature" id="ID_BE_FEATURE_BENCAO_DA_VINGANCA" level="6" />
             <grant type="Class Feature" id="ID_BE_FEATURE_EVASAO" level="7" />
             <grant type="Class Feature" id="ID_BE_FEATURE_ATAQUE_VINGATIVO" level="7" />
-            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="8" />
             <grant type="Class Feature" id="ID_BE_FEATURE_CONVICCAO_VERDADEIRA" level="10" />
             <grant type="Class Feature" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE_IMPROVED" level="10" />
             <grant type="Class Feature" id="ID_BE_FEATURE_CLAREZA_DA_ALMA" level="11" />
             <grant type="Class Feature" id="ID_BE_FEATURE_IRA_DO_DIVINO" level="11" />
-            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="12" />
             <grant type="Class Feature" id="ID_BE_FEATURE_ESPIRITO_DURADOURO" level="14" />
             <grant type="Class Feature" id="ID_BE_FEATURE_OLHO_DA_JUSTICA" level="15" />
-            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="16" />
             <grant type="Class Feature" id="ID_BE_FEATURE_REPREENSAO_FANATICO" level="18" />
-            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="19" />
             <grant type="Class Feature" id="ID_BE_FEATURE_ESPIRITO_DA_VINGANCA" level="20" />
         </rules>
         <spellcasting name="Vingador" ability="Wisdom" prepare="false">
             <list>Vingador</list>
         </spellcasting>
     </element>
-
+    <element name="Aumento de Atributo Automático" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_ASI_AUTOMATICO">
+    <description>
+        <p>Ao atingir este nível, sua Sabedoria e sua Destreza aumentam em 1 de forma permanente, guiados pela precisão divina de sua vingança.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+        <stat name="wisdom" value="1" />
+        <stat name="dexterity" value="1" />
+    </rules>
+    </element>
     <element name="Juramento de Inimizade Aprimorado" type="Class Feature" source="Biblioteca Élfica" id="ID_BE_FEATURE_JURAMENTO_INIMIZADE_IMPROVED">
         <description>
             <p>Quando você acertar uma criatura sob seu juramento de inimizade, você causará dano adicional igual ao seu modificador de Sabedoria (mínimo +1).</p>
@@ -319,6 +329,7 @@
     </element>
 
 </elements>
+
 
 
 
