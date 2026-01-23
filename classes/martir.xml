@@ -75,17 +75,17 @@
 
             <select type="Archetype" name="Fardo (Arquétipo)" supports="Martir" level="3" />
 
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="4" />
+            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="4" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_EMPATIA_DOLOROSA" level="6" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="8" />
+            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="8" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_INSPIRACAO_VINGATIVA" level="10" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_ADAPTACAO_RETALIATORIA" level="11" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="12" />
+            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="12" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_CADEIA_DE_PENITENCIA" level="14" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="16" />
+            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="16" />
             <grant type="Class Feature" id="ID_FELIX_FEATURE_O_MARTIR_18" level="18" />
-            <grant type="Class Feature" id="ID_FELIX_FEATURE_ASI" level="19" />
+            <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="19" />
 
             <stat name="martir:prepare:count" value="charisma:modifier" />
             <stat name="martir:prepare:count" value="level:martir:half" />
@@ -163,16 +163,6 @@
             <p><b>Magias de Fardo:</b> Você sempre as terá preparadas e elas não contam no seu limite diário.</p>
         </description>
         <sheet display="false" />
-    </element>
-
-    <element name="Incremento no Valor de Habilidade" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_ASI">
-        <description>
-            <p>Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <select type="Class Feature" name="Incremento no Valor de Habilidade" supports="Ability Score Improvement" />
-        </rules>
     </element>
 
     <element name="Ataque Extra" type="Class Feature" source="Felix Klaus" id="ID_FELIX_FEATURE_EXTRA_ATTACK">
@@ -920,6 +910,7 @@
     </element>
 
 </elements>
+
 
 
 
